@@ -1,0 +1,13 @@
+// login.fxml
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml" fx:controller="controller.LoginController">
+    <children>
+        <Label text="Login" style="-fx-font-size: 18; -fx-font-weight: bold;" />
+        <TextField fx:id="usernameField" promptText="Username" />
+        <PasswordField fx:id="passwordField" promptText="Password" />
+        <Button text="Login" onAction="#onLogin" />
+        <Hyperlink text="Register" onAction="#onRegisterRedirect" />
+    </children>
+</VBox>
